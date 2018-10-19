@@ -1,7 +1,7 @@
-def my_each(&proc)
+def my_each(array)
   i = 0 
-  while i <= self.length 
-    yield
+  while i <= array.length 
+    yield(array[i])
     i += 1 
   end 
 end
