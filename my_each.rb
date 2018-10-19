@@ -1,3 +1,7 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(&proc)
+  i = 0 
+  while i <= self.length 
+    yield
+    i += 1 
+  end 
 end
